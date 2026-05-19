@@ -1,3 +1,9 @@
+/* Prevent text/element selection during gameplay */
+* {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 :root {
   --font-display:
     Spline Sans, Inter, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji,
